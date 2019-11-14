@@ -79,6 +79,13 @@ using Microsoft.AspNetCore.ProtectedBrowserStorage;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\Alan\Desktop\dotnetWeb\BlazorApp\_Imports.razor"
+using TindevApp.Blazor.Models;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/error")]
     public class Error : Microsoft.AspNetCore.Components.ComponentBase
     {

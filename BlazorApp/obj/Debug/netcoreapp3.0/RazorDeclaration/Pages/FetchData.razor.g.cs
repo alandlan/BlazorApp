@@ -84,6 +84,13 @@ using Microsoft.AspNetCore.ProtectedBrowserStorage;
 #line hidden
 #nullable disable
 #nullable restore
+#line 11 "c:\Users\Alan\Desktop\dotnetWeb\BlazorApp\_Imports.razor"
+using TindevApp.Blazor.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 3 "c:\Users\Alan\Desktop\dotnetWeb\BlazorApp\Pages\FetchData.razor"
 using BlazorApp.Data;
 

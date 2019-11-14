@@ -50,3 +50,5 @@ C:\Users\Alan\Desktop\dotnetWeb\BlazorApp\obj\Debug\netcoreapp3.0\Razor\Pages\Lo
 C:\Users\Alan\Desktop\dotnetWeb\BlazorApp\bin\Debug\netcoreapp3.0\BlazorApp.StaticWebAssets.xml
 C:\Users\Alan\Desktop\dotnetWeb\BlazorApp\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.ProtectedBrowserStorage.dll
 C:\Users\Alan\Desktop\dotnetWeb\BlazorApp\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Alan\Desktop\dotnetWeb\BlazorApp\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\Developers.razor.g.cs
+C:\Users\Alan\Desktop\dotnetWeb\BlazorApp\obj\Debug\netcoreapp3.0\Razor\Pages\Developers.razor.g.cs

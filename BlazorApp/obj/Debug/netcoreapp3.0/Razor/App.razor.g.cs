@@ -79,6 +79,13 @@ using Microsoft.AspNetCore.ProtectedBrowserStorage;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\Alan\Desktop\dotnetWeb\BlazorApp\_Imports.razor"
+using TindevApp.Blazor.Models;
+
+#line default
+#line hidden
+#nullable disable
     public class App : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
