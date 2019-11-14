@@ -1,0 +1,28 @@
+@page "/login"
+@inject TindevApp.Blazor.Data.DevelopersApi devApi
+@inject ProtectedSessionStorage ProtectedSessionStorage
+
+<h3>Login</h3>
+
+<input type="text" @bind="_login" />
+<button @onclick="LoginAsync">Login</button>
+<span>@_status</span>
+
+@code {
+    private string _login;
+    private string _status;
+
+    private async Task LoginAsync()
+    {
+        _status = "Fazendo Login";
+
+        string token = await devApi.LoginAsync(_login);
+        await ProtectedSessionStorage.SetAsync("token", token);
+
+        if(token != null)
+            _status = "Ok";
+        else
+            _status = "NOk";
+    }
+
+}
